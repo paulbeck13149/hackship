@@ -33,10 +33,6 @@ export PYTHONUSERBASE="$XDG_DATA_HOME/python"
 export NODE_REPL_HISTORY="$XDG_DATA_HOME/node_repl_history"
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
 
-# Security tools
-export SECURITY_HOME
-export PASSWORD_STORE_DIR="$XDG_DATA_HOME/password-store"
-
 # X11 and desktop
 export XINITRC="$XDG_CONFIG_HOME/x11/xinitrc"
 export XAUTHORITY="$XDG_CONFIG_HOME/x11/xauthority"
@@ -44,13 +40,9 @@ export _JAVA_AWT_WM_NONPARENTiNG=1
 export WALLPAPER_DIR="$XDG_DATA_HOME/wallpapers"
 
 # Program configs
+export PASSWORD_STORE_DIR="$XDG_DATA_HOME/password-store"
 export LESSHISTFILE="$XDG_STATE_HOME/less_history"
-export CALCURSE_DIR="$XDG_CONFIG_HOME/calcurse"
-export LEDGER_CONFIG="$XDG_CONFIG_HOME/hledger/hledger.conf"
-export LEDGER_FILE="$XDG_DATA_HOME/hledger/main.journal"
-export TASKDATA="$XDG_DATA_HOME/task"
-export TASKRC="$XDG_CONFIG_HOME/task/taskrc"
 export JRNL_DIR="$XDG_DATA_HOME/jrnl"
 
 # Path
-export PATH
+# export PATH
