@@ -1,5 +1,10 @@
 # Configures Zsh shell behavior, prompts, and interactive features
 
+# Start X automatically on TTY1
+if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
+    exec startx "$XINITRC"
+fi
+
 # Basic auto/tab complete
 autoload -Uz compinit
 compinit -d "$XDG_CACHE_HOME/zsh/zcompdump-$ZSH_VERSION"
